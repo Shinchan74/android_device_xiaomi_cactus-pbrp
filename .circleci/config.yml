@@ -19,8 +19,8 @@ jobs:
       - run:
           name: AIO Build
           command: 
-            git config --global user.email $subroto36@gmail.com
-            git config --global user.name $Shinchan74
+            git config --global user.email subroto36@gmail.com
+            git config --global user.name Shinchan74
             git config --global color.ui true           
             wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/build.sh
             source build.sh
